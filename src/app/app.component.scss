@@ -1,0 +1,30 @@
+.background-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(1px) saturate(0.5) contrast(0.5) brightness(0.8);
+}
+
+.container {
+    overflow: hidden;
+}
+
+.layout-principal {
+    grid-template: 
+    "secao1 secao2"
+    / 55% 45%;
+
+    .secao1 {
+        grid-area: secao1;
+    }
+    .secao2 {
+        grid-area: secao2;
+    }
+}

@@ -1,0 +1,45 @@
+.top-left {
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 30px;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 30px;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 30px;
+}
+
+button {
+    position: absolute;
+    padding: 40px 55px;
+    border: 0;
+    background-color: #f66a6b;
+    color: #fff;
+    font-size: 1.1em;
+    
+    &.secondary {
+        background-color: #697585;
+        opacity: 0.6;
+    }
+    
+    &.big {
+        padding: 50px 150px;        
+    }
+
+    &.small {
+        padding: 15px 35px;
+    }
+}
